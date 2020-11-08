@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  x",
+    " x ",
+    "s  "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "zelda:ruby"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "zelda:ruby_sword",
+    "count": 1
+  }
+}
