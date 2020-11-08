@@ -72,4 +72,12 @@ public class zeldaBase
             return new ItemStack(RegistryHandler.RUBY_PICKAXE.get());
         }
     };
+    public static final ItemGroup ARMORTAB = new ItemGroup("armorTab")
+    {
+        @Override
+        public ItemStack createIcon ()
+        {
+            return new ItemStack(RegistryHandler.RUBY_CHESTPLATE.get());
+        }
+    };
 }

@@ -1,10 +1,19 @@
 {
   "item.zelda.ruby": "Ruby",
+
   "item.zelda.ruby_sword": "Ruby Sword",
   "item.zelda.ruby_pickaxe": "Ruby Pickaxe",
+
   "block.zelda.ruby_block": "Block Of Ruby",
+
+  "item.zelda.ruby_helmet": "Ruby Helmet",
+  "item.zelda.ruby_chestplate": "Ruby Chestplate",
+  "item.zelda.ruby_leggings": "Ruby Leggings",
+  "item.zelda.ruby_boots": "Ruby Boots",
+
   "itemGroup.itemsTab": "Zelda Items",
   "itemGroup.blocksTab": "Zelda Blocks",
   "itemGroup.weaponsTab": "Zelda Weapons",
-  "itemGroup.toolsTab": "Zelda Tools"
+  "itemGroup.toolsTab": "Zelda Tools",
+  "itemGroup.armorTab": "Zelda Armor"
 }

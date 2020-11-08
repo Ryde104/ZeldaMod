@@ -1,11 +1,14 @@
 package com.ryder.zeldamod.util;
 
+import com.ryder.zeldamod.armor.ZeldaArmorMaterial;
 import com.ryder.zeldamod.blocks.BlockItemBase;
 import com.ryder.zeldamod.blocks.RubyBlock;
 import com.ryder.zeldamod.items.ItemBase;
 import com.ryder.zeldamod.tools.ZeldaItemTier;
 import com.ryder.zeldamod.zeldaBase;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
@@ -43,4 +46,15 @@ public class RegistryHandler
 
     public static final  RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
             new PickaxeItem(ZeldaItemTier.RUBY, 0, -1.0F, new Item.Properties().group(zeldaBase.TOOLSTAB)));
+
+    // ARMOR
+
+    public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
+            new ArmorItem(ZeldaArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(zeldaBase.ARMORTAB)));
+    public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () ->
+            new ArmorItem(ZeldaArmorMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(zeldaBase.ARMORTAB)));
+    public static final RegistryObject<ArmorItem> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () ->
+            new ArmorItem(ZeldaArmorMaterial.RUBY, EquipmentSlotType.LEGS, new Item.Properties().group(zeldaBase.ARMORTAB)));
+    public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots", () ->
+            new ArmorItem(ZeldaArmorMaterial.RUBY, EquipmentSlotType.FEET, new Item.Properties().group(zeldaBase.ARMORTAB)));
 }

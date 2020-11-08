@@ -10,7 +10,7 @@ public enum ZeldaItemTier implements IItemTier {
 //
     RUBY(3, 32, 12.0F, 1.0F, 22, () ->
         {
-        return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.RUBY.get());
         });
 
     private final int harvestLevel;
