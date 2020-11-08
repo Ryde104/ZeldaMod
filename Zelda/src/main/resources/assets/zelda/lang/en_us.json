@@ -1,5 +1,6 @@
 {
   "item.zelda.ruby": "Ruby",
+  "item.zelda.mushroom_skewer": "Mushroom Skewer",
 
   "item.zelda.ruby_sword": "Ruby Sword",
   "item.zelda.ruby_pickaxe": "Ruby Pickaxe",
@@ -15,5 +16,6 @@
   "itemGroup.blocksTab": "Zelda Blocks",
   "itemGroup.weaponsTab": "Zelda Weapons",
   "itemGroup.toolsTab": "Zelda Tools",
-  "itemGroup.armorTab": "Zelda Armor"
+  "itemGroup.armorTab": "Zelda Armor",
+  "itemGroup.foodTab": "Zelda Food"
 }

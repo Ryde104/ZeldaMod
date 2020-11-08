@@ -4,6 +4,7 @@ import com.ryder.zeldamod.armor.ZeldaArmorMaterial;
 import com.ryder.zeldamod.blocks.BlockItemBase;
 import com.ryder.zeldamod.blocks.RubyBlock;
 import com.ryder.zeldamod.items.ItemBase;
+import com.ryder.zeldamod.items.Mushroom_Skewer;
 import com.ryder.zeldamod.tools.ZeldaItemTier;
 import com.ryder.zeldamod.zeldaBase;
 import net.minecraft.block.Block;
@@ -16,8 +17,6 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-
-import java.rmi.registry.Registry;
 
 public class RegistryHandler
 {
@@ -33,6 +32,7 @@ public class RegistryHandler
 
     // ITEMS
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Mushroom_Skewer> MUSHROOM_SKEWER = ITEMS.register("mushroom_skewer", Mushroom_Skewer::new);
 
     // BLOCKS
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
@@ -48,7 +48,6 @@ public class RegistryHandler
             new PickaxeItem(ZeldaItemTier.RUBY, 0, -1.0F, new Item.Properties().group(zeldaBase.TOOLSTAB)));
 
     // ARMOR
-
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
             new ArmorItem(ZeldaArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(zeldaBase.ARMORTAB)));
     public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () ->

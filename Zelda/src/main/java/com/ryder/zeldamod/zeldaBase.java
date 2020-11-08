@@ -12,8 +12,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.stream.Collectors;
-
 
 @Mod("zelda")
 public class zeldaBase
@@ -48,6 +46,7 @@ public class zeldaBase
             return new ItemStack(RegistryHandler.RUBY.get());
         }
     };
+
     public static final ItemGroup BLOCKSTAB = new ItemGroup("blocksTab")
     {
         @Override
@@ -56,6 +55,7 @@ public class zeldaBase
             return new ItemStack(RegistryHandler.RUBY_BLOCK.get());
         }
     };
+
     public static final ItemGroup WEAPONSTAB = new ItemGroup("weaponsTab")
     {
         @Override
@@ -64,6 +64,7 @@ public class zeldaBase
             return new ItemStack(RegistryHandler.RUBY_SWORD.get());
         }
     };
+
     public static final ItemGroup TOOLSTAB = new ItemGroup("toolsTab")
     {
         @Override
@@ -72,12 +73,22 @@ public class zeldaBase
             return new ItemStack(RegistryHandler.RUBY_PICKAXE.get());
         }
     };
+
     public static final ItemGroup ARMORTAB = new ItemGroup("armorTab")
     {
         @Override
         public ItemStack createIcon ()
         {
             return new ItemStack(RegistryHandler.RUBY_CHESTPLATE.get());
+        }
+    };
+
+    public static final ItemGroup FOODTAB = new ItemGroup("foodTab")
+    {
+        @Override
+        public ItemStack createIcon ()
+        {
+            return new ItemStack(RegistryHandler.MUSHROOM_SKEWER.get());
         }
     };
 }
