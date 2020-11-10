@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "zelda:block/ruby_block" }
+    "facing=north": { "model": "zelda:block/ruby_block" },
+    "facing=south": { "model": "zelda:block/ruby_block", "y":  180},
+    "facing=west": { "model": "zelda:block/ruby_block", "y":  270},
+    "facing=east": { "model": "zelda:block/ruby_block", "y":  90}
   }
 }

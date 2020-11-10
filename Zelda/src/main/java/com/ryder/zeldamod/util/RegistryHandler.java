@@ -9,10 +9,7 @@ import com.ryder.zeldamod.tools.ZeldaItemTier;
 import com.ryder.zeldamod.zeldaBase;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -46,6 +43,9 @@ public class RegistryHandler
 
     public static final  RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
             new PickaxeItem(ZeldaItemTier.RUBY, 0, -1.0F, new Item.Properties().group(zeldaBase.TOOLSTAB)));
+
+    public static final  RegistryObject<SwordItem> RUBY_HAMMER = ITEMS.register("ruby_hammer", () ->
+            new SwordItem(ZeldaItemTier.RUBY, 10, -2.5F, new Item.Properties().group(zeldaBase.WEAPONSTAB)));
 
     // ARMOR
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
