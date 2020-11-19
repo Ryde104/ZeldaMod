@@ -1,0 +1,24 @@
+{
+  "item.test.ruby": "Ruby",
+  "item.test.gun": "Gun",
+
+  "item.test.mushroom_skewer": "Mushroom Skewer",
+
+  "item.test.ruby_sword": "Ruby Sword",
+  "item.test.ruby_pickaxe": "Ruby Pickaxe",
+  "item.test.ruby_hammer": "Ruby Hammer",
+
+  "block.test.ruby_block": "Block Of Ruby",
+
+  "item.test.ruby_helmet": "Ruby Helmet",
+  "item.test.ruby_chestplate": "Ruby Chestplate",
+  "item.test.ruby_leggings": "Ruby Leggings",
+  "item.test.ruby_boots": "Ruby Boots",
+
+  "itemGroup.itemsTab": "Zelda Items",
+  "itemGroup.blocksTab": "Zelda Blocks",
+  "itemGroup.weaponsTab": "Zelda Weapons",
+  "itemGroup.toolsTab": "Zelda Tools",
+  "itemGroup.armorTab": "Zelda Armor",
+  "itemGroup.foodTab": "Zelda Food"
+}

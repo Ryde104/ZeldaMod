@@ -79,8 +79,12 @@ public class ModClientEvents {
     public static void Zombie(AttackEntityEvent event){
 
         Entity player = event.getEntity();
+        LivingEntity target = (LivingEntity) event.getTarget();
+
         if ((player instanceof PlayerEntity)){
 
+
+           
             //LivingEntity target = (LivingEntity) event.getTarget();
 
             //target.setMotion(100,100,100);
